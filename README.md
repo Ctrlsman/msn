@@ -9,20 +9,20 @@
 
 
 ## RabbitMQ docker 安装命令
-'''shell
+```shell
 docker search rabbitmq
 docker pull rabbitmq
 docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq
-'''
+```
 
 
 ## 运行
 
-'''shell
+```shell
 git clone
 cd microservices
 nameko run push & nameko run register
-'''
+```
 
 
 访问:http://localhost:5000/apidocs/#/
