@@ -1,5 +1,4 @@
 import time
-import random
 from flask import Flask, request, jsonify
 from flasgger import Swagger
 from nameko.standalone.rpc import ClusterRpcProxy
