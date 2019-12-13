@@ -22,6 +22,7 @@ docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:567
 git clone
 cd microservices
 nameko run push & nameko run register
+cd .. & python app/api.py
 ```
 
 
