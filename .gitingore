@@ -1,0 +1,11 @@
+.venv
+venv/
+.cache
+.coverage.*
+.coveralls.yml
+.idea
+*.pyc
+_build
+.vscode
+.env
+__pycache__/*
